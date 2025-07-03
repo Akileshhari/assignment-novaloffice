@@ -1,0 +1,64 @@
+Log created: 2025-07-03 06:27:41
+Type: backup
+[2025-07-03 06:27:42][notice]Start backing up.
+[2025-07-03 06:27:42][notice]server info fcgi:Off max execution time: 300 wp version:6.8.1 php version:8.1.25 db version:10.4.32 php ini:safe_mode: memory_limit:512M memory_get_usage:55.30 MB memory_get_peak_usage:55.77 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2025-07-03 06:27:42][notice]Prepare to backup backup_db files.
+[2025-07-03 06:27:42][notice]Start exporting database.
+[2025-07-03 06:27:42][notice]Preparing to dump table wp_links
+[2025-07-03 06:27:42][notice]Preparing to dump table wp_term_relationships
+[2025-07-03 06:27:42][notice]Preparing to dump table wp_yoast_migrations
+[2025-07-03 06:27:42][notice]Preparing to dump table wp_commentmeta
+[2025-07-03 06:27:42][notice]Preparing to dump table wp_postmeta
+[2025-07-03 06:27:42][notice]Preparing to dump table wp_term_taxonomy
+[2025-07-03 06:27:42][notice]Preparing to dump table wp_termmeta
+[2025-07-03 06:27:42][notice]Preparing to dump table wp_terms
+[2025-07-03 06:27:42][notice]Preparing to dump table wp_usermeta
+[2025-07-03 06:27:42][notice]Preparing to dump table wp_yoast_primary_term
+[2025-07-03 06:27:42][notice]Preparing to dump table wp_yoast_seo_links
+[2025-07-03 06:27:42][notice]Preparing to dump table wp_users
+[2025-07-03 06:27:42][notice]Preparing to dump table wp_yoast_indexable_hierarchy
+[2025-07-03 06:27:42][notice]Preparing to dump table wp_comments
+[2025-07-03 06:27:42][notice]Preparing to dump table wp_yoast_indexable
+[2025-07-03 06:27:42][notice]Preparing to dump table wp_posts
+[2025-07-03 06:27:42][notice]Preparing to dump table wp_options
+[2025-07-03 06:27:42][notice]Exporting database finished.
+[2025-07-03 06:27:42][notice]Start compressing database
+[2025-07-03 06:27:42][notice]Prepare to zip file. file: localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_db.sql
+[2025-07-03 06:27:42][notice]Adding zip files completed.localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_db.part001.zip, filesize: 377.60 KB
+[2025-07-03 06:27:42][notice]Compressing database completed
+[2025-07-03 06:27:42][notice]Backing up backup_db completed.
+[2025-07-03 06:27:42][notice]Prepare to backup backup_themes files.
+[2025-07-03 06:27:42][notice]Compressing zip file:localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_themes.part001.zip index:390
+[2025-07-03 06:27:43][notice]Compressing zip file:localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_themes.part001.zip success. index:390 file size:12.57 MB
+[2025-07-03 06:27:43][notice]Backing up backup_themes completed.
+[2025-07-03 06:27:43][notice]Prepare to backup backup_plugin files.
+[2025-07-03 06:27:43][notice]Compressing zip file:localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_plugin.part001.zip index:2025
+[2025-07-03 06:27:44][notice]Compressing zip file:localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_plugin.part001.zip success. index:2025 file size:6.09 MB
+[2025-07-03 06:27:45][notice]Backing up backup_plugin completed.
+[2025-07-03 06:27:45][notice]Prepare to backup backup_uploads files.
+[2025-07-03 06:27:45][notice]Compressing zip file:localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_uploads.part001.zip index:5
+[2025-07-03 06:27:45][notice]Compressing zip file:localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_uploads.part001.zip success. index:5 file size:1.13 MB
+[2025-07-03 06:27:45][notice]Backing up backup_uploads completed.
+[2025-07-03 06:27:45][notice]Prepare to backup backup_content files.
+[2025-07-03 06:27:45][notice]Compressing zip file:localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_content.part001.zip index:1
+[2025-07-03 06:27:45][notice]Compressing zip file:localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_content.part001.zip success. index:1 file size:144.00 B
+[2025-07-03 06:27:45][notice]Backing up backup_content completed.
+[2025-07-03 06:27:45][notice]Prepare to backup backup_core files.
+[2025-07-03 06:27:46][notice]Compressing zip file:localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_core.part001.zip index:2800
+[2025-07-03 06:28:29][notice]Compressing zip file:localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_core.part001.zip success. index:2800 file size:14.49 MB
+[2025-07-03 06:28:29][notice]Backing up backup_core completed.
+[2025-07-03 06:28:29][notice]Prepare to backup backup_merge files.
+[2025-07-03 06:28:29][notice]Prepare to zip file. file: localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_db.zip
+[2025-07-03 06:28:29][notice]Adding zip files completed.localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_all.part001.zip, filesize: 375.27 KB
+[2025-07-03 06:28:29][notice]Prepare to zip file. file: localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_themes.zip
+[2025-07-03 06:28:30][notice]Adding zip files completed.localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_all.part001.zip, filesize: 12.88 MB
+[2025-07-03 06:28:30][notice]Prepare to zip file. file: localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_plugin.zip
+[2025-07-03 06:28:30][notice]Adding zip files completed.localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_all.part001.zip, filesize: 18.58 MB
+[2025-07-03 06:28:30][notice]Prepare to zip file. file: localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_uploads.zip
+[2025-07-03 06:28:30][notice]Adding zip files completed.localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_all.part001.zip, filesize: 19.72 MB
+[2025-07-03 06:28:30][notice]Prepare to zip file. file: localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_content.zip
+[2025-07-03 06:28:30][notice]Adding zip files completed.localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_all.part001.zip, filesize: 19.72 MB
+[2025-07-03 06:28:30][notice]Prepare to zip file. file: localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_core.zip
+[2025-07-03 06:28:30][notice]Adding zip files completed.localhost_wordpress_wpvivid-2ca6220fb8e9f_2025-07-03-06-27_backup_all.part001.zip, filesize: 33.77 MB
+[2025-07-03 06:28:30][notice]Backing up backup_merge completed.
+[2025-07-03 06:28:30][notice]Backup completed.
